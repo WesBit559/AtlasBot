@@ -19,7 +19,7 @@ async function fetchPrice_coingecko(name){
 
   if (!priceInfo){return;}
 
-  const currentprice=parseFloat(priceInfo['prices'][1][1]).toFixed(6);
+  const currentprice=parseFloat(priceInfo['prices'][1][1]).toFixed(6); //CHANGE THIS FOR THE DECIMAL PLACES SHOWN FOR THE BOT.
   
   return {price: currentprice, change: ""}
 }
