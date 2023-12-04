@@ -8,7 +8,7 @@ const keepAlive = require ("./keepAlive.js");
 
 //IMPORTANT THINGS TO UPDATE---------------------------
 
-//! ADD A KEY NAMED "BOT_TOKEN" (WITHOUT QUOTES...) IN SECRETS ON THE LEFT. THE VALUE SHOULD BE YOUR BOT APPLICATION TOKEN.
+//! ADD A KEY NAMED "DISCORD_TOKEN" (WITHOUT QUOTES...) IN THE .ENV FILE INSIDE THE CONFIG FOLDER. THE VALUE SHOULD BE YOUR BOT APPLICATION TOKEN.
 
 
 const inputs={
@@ -41,15 +41,10 @@ client.once('ready', () => {
 
   setInterval(function(){
     updateBot(inputs, client);
-   }, 1000*60*1) //Update price every 60 minutes
+   }, 1000*60*1) //Update price every 1 minutes
 
 
   });
- 
-
-
-
-//TAKE keepAlive() OUT OF COMMENTS BELOW IF YOU INTEND TO USE FRESHPING OR A SIMILAR RESOURCE TO PING THE BOT TO KEEP ALIVE! THIS WILL START THE EXPRESS SERVER WHEN RUNNING.
 
 keepAlive();
 
