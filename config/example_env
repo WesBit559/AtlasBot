@@ -1,0 +1,7 @@
+# Duplicate this file with the name ".env" and change the variables to fit your config
+
+# The ID of the server
+SERVER_ID=
+
+# The Discord token to login with
+DISCORD_TOKEN=
