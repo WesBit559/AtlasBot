@@ -1,5 +1,4 @@
-AtlasPrice-Discord-Bot
-AtlasPriceBot is a Discord bot written in Node.js. It fetches real-time price information for various cryptocurrencies directly from CoinGecko or the Jupiter Aggregator for Solana SPL tokens. It's the perfect bot for crypto enthusiasts or Solana token trackers wishing to keep an eye on their favourite coins!
+AtlasPrice-Discord-Bot is a Discord bot written in Node.js. It fetches real-time price information for various cryptocurrencies directly from CoinGecko or the Jupiter Aggregator for Solana SPL tokens. It's the perfect bot for crypto enthusiasts or Solana token trackers wishing to keep an eye on their favourite coins!
 
 Getting Started
 These instructions will guide you on how to set up and run AtlasPriceBot on your local machine.
