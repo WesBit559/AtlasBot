@@ -30,7 +30,7 @@ Configure your bot settings in the inputs object located in atlas.js. Here you c
 Running the Bot
 Run your bot with the following command:
 
-node index.js
+node atlas.js
 
 
 Once successfully running, your bot should log "Prices Online... Let's go go go...!!" into the console.
